@@ -5,6 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/karo-electronics" name="karo"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
@@ -17,7 +18,7 @@
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="karo" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
 
