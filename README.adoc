@@ -54,3 +54,8 @@ When sending patches, please use something like:
 
 [source,console]
 $: git send-email --to <insert-maintainer-here>@karo-electronics.de <generated patch>
+
+---
+http://www.karo-electronics.de[Ka-Ro electronics GmbH]
+
+Contact support: support@karo-electronics.de
