@@ -6,7 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/karo-electronics" name="karo"/>
-  <remote fetch="https://github.com/karo-electronics" name="directinsight"/>
+  <remote fetch="https://github.com/directinsight" name="directinsight"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
