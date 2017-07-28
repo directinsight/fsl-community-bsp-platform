@@ -1,4 +1,4 @@
-= Ka-Ro flavoured FSL Community BSP
+= Direct Insight / Ka-Ro flavoured FSL Community BSP
 
 To get the BSP you need to have `repo` installed and use it as:
 
@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir fsl-community-bsp
 $: cd fsl-community-bsp
-$: repo init -u https://github.com/karo-electronics/fsl-community-bsp-platform -b krogoth
+$: repo init -u https://github.com/directinsight/fsl-community-bsp-platform -b krogoth
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
